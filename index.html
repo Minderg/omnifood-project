@@ -11,13 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/mediaqueries.css" />
     <title>Omnifood</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header nav-open">
       <a href="#">
         <img src="img/omnifood-logo.png" alt="Omnifood logo" class="logo" />
       </a>
@@ -32,6 +32,11 @@
           <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
         </ul>
       </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
 
     <main>
@@ -554,7 +559,7 @@
                   <input
                     id="email"
                     type="email"
-                    placeholder="test@example.com"
+                    placeholder="YourEmail@Something.com"
                     required
                   />
                 </div>

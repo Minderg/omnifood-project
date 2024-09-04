@@ -77,12 +77,24 @@
             </div>
           </div>
 
-          <div class="hero-image-box">
+          <!-- <div class="hero-image-box">
             <img
-              src="img/hero.png"
+              src="img/hero-min.png"
               class="hero-img"
               alt="Women enjoying food, meals in storage container and food bowls on a table"
             />
+          </div> -->
+          <div class="hero-image-box">
+            <picture>
+              <source src="img/hero.webp" type="img/webp" />
+              <source src="img/hero-min.png" type="img/png" />
+
+              <img
+                src="img/hero.webp"
+                class="hero-img"
+                alt="Women enjoying food, meals in storage container and food bowls on a table"
+              />
+            </picture>
           </div>
         </div>
       </section>
